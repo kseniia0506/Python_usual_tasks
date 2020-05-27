@@ -1,0 +1,17 @@
+print("create number from 1 to 5", end=' ')
+input("click Enter")
+
+a = input("is your numder more than 3? (y/n) ")
+
+if a == 'y':
+    a = input("is your number 4? (y/n) ")
+    if a == 'n':
+        print("your number is 5")
+else:
+    a = input("is your number 1? (y/n) ")
+    if a == 'n':
+        a = input("is your number 2? (y/n) ")
+        if a == 'n':
+            print("your number is 3")
+
+print("I guessed!")
